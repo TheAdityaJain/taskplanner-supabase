@@ -29,7 +29,9 @@ A modern lead management system built with Next.js and Supabase, organized as a 
 - Supabase account
 
 ### Installation
+OPTION A : Directly, visit https://taskplanner-supabase.vercel.app/dashboard/today
 
+OPTION B : 
 1. Clone the repository
 2. Install dependencies:
 \`\`\`bash
