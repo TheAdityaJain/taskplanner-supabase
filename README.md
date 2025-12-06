@@ -21,25 +21,6 @@ This workflow ensures secure payment processing, maintains data integrity across
 
 A modern lead management system built with Next.js and Supabase, organized as a monorepo with separate frontend and backend directories.
 
-## Project Structure
-
-\`\`\`
-├── frontend/              # Next.js application
-│   ├── app/              # Next.js app directory
-│   ├── components/       # React components
-│   ├── lib/              # Utilities and Supabase clients
-│   ├── package.json
-│   └── tsconfig.json
-├── backend/              # Backend resources
-│   └── edge-functions/   # Supabase edge functions
-│       └── create-task/
-│           ├── schema.sql        # Database schema
-│           ├── rls_policies.sql  # Row Level Security policies
-│           └── index.ts          # Edge function implementation
-├── package.json          # Root workspace configuration
-└── README.md             # This file
-\`\`\`
-
 ## Quick Start
 
 ### Prerequisites
