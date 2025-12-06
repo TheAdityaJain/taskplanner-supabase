@@ -29,31 +29,31 @@ A modern lead management system built with Next.js and Supabase, organized as a 
 - Supabase account
 
 ### Installation
-OPTION A : Directly, visit https://taskplanner-supabase.vercel.app/dashboard/today
+OPTION A : Directly, visit `https://taskplanner-supabase.vercel.app/dashboard/today`
 
 OPTION B : 
 1. Clone the repository
 2. Install dependencies:
-\`\`\`bash
+```
+bash
 npm install
-\`\`\`
-
-3. Set up environment variables in `frontend/.env.local`:
-\`\`\`env
+```
+4. Set up environment variables in `frontend/.env.local`:
+```env
 NEXT_PUBLIC_SUPABASE_URL=your_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-\`\`\`
+```
 
-4. Set up the database schema:
+5. Set up the database schema:
    - Go to your Supabase dashboard SQL Editor
    - Run the SQL from `backend/edge-functions/create-task/schema.sql`
    - Run the SQL from `backend/edge-functions/create-task/rls_policies.sql`
 
-5. Start the development server:
-\`\`\`bash
+6. Start the development server:
+```bash
 npm run dev
-\`\`\`
+```
 
 The application will be available at `http://localhost:3000`
 
